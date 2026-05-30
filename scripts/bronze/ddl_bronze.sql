@@ -72,8 +72,8 @@ CREATE TABLE DataWarehouse.bronze.erp_cust_az12
 );
 
 -- Drop the table if it already exists
-IF OBJECT_ID('DataWarehouse.bronze.crm_prd_info', 'U') IS NOT NULL
-    DROP TABLE DataWarehouse.bronze.crm_prd_info;
+IF OBJECT_ID('DataWarehouse.bronze.erp_loc_a101', 'U') IS NOT NULL
+    DROP TABLE DataWarehouse.bronze.erp_loc_a101;
 GO
 
 CREATE TABLE DataWarehouse.bronze.erp_loc_a101
@@ -81,6 +81,11 @@ CREATE TABLE DataWarehouse.bronze.erp_loc_a101
     cid nvarchar(50),
     cntry nvarchar(50)
 );
+
+-- Drop the table if it already exists
+IF OBJECT_ID('DataWarehouse.bronze.erp_px_cat_g1v2', 'U') IS NOT NULL
+    DROP TABLE DataWarehouse.bronze.erp_px_cat_g1v2;
+GO
 
 CREATE TABLE DataWarehouse.bronze.erp_px_cat_g1v2
 (
