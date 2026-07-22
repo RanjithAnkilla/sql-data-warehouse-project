@@ -33,6 +33,9 @@ Key capabilities include:
 The warehouse is structured across three layers of the **Medallion Architecture**:
 
 ![Data Architecture](docs/data_architecture.png)
+![Data Flow](docs/data_flow.png)
+![Data Integration Model](docs/Integration_model.png)
+![Data Mart](docs/sales_data_mart.png)
 
 | Layer | Purpose |
 |-------|---------|
